@@ -23,7 +23,7 @@ jobs:
         run: ls -ll
      
       - name: create a directroy
-        run: mkdir -p ouptut
+        run: mkdir -p output
      
       - name: create a text file
         run: echo "This is a demo file created by the GitHub Action." > output/message.txt
